@@ -10,4 +10,5 @@ This repository consists of all the projects I have made while I was at the Univ
   <li>AI - Artificial Intelligence</li>
   <li>ISAA - Information Security Analysis and Audit</li>
   <li>Software - Software</li>
+  <li>LSM - Lean Startup Management </li>
   </ol>
