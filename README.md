@@ -9,6 +9,6 @@ This repository consists of all the projects I have made while I was at the Univ
   <li>PDC - Parallel and Distributed Computing</li>
   <li>AI - Artificial Intelligence</li>
   <li>ISAA - Information Security Analysis and Audit</li>
-  <li>Software - Software</li>
+  <li>Software - Software Engineering</li>
   <li>LSM - Lean Startup Management </li>
   </ol>
