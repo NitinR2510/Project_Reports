@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## Welcome to University Project Reports of Nitin Ranjan
 
-You can use the [editor on GitHub](https://github.com/NitinR2510/Project_Reports/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+I study at the VIT University and this is a collection of all project reports I made as a student here from being a fresher to graduation day.
 
 ### Markdown
 
