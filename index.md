@@ -17,7 +17,19 @@ We had suggested a new method to improve efficiency.
 It is based on browser extensions and preplanned selection._
 
 ### Year 2 (2019-20)
+- Database Management Systems - [Chatbot for mental health montoring](https://github.com/NitinR2510/Project_Reports/blob/main/DBMS.pdf)
+_ICRYM is a chatbot built to behave as a friend and a monitor for the mental health of the user. It involves some really simple sentence contruction and a small language tree to contruct some conversation artificially. A website was deployed for the purpose of the same._
+
+- Lean Startup Manangement - [Web platform for fresher interaction](https://github.com/NitinR2510/Project_Reports/blob/main/LSM.pdf)
+_Similar to Quora and Twitter but for a univeristy students and teachers to interact and learn more_
+
+### Year 3 (2020 - )
+- Data Structures and Algorithms - [Hangman and the analysis of Python vs C for large datas](https://github.com/NitinR2510/Project_Reports/blob/main/DSA.pdf)
+_Hangman is very popular word game. We programmed hangman with a complete dictionary word set (around 4 million) and compared the performance of the two languages. Basc Python uses list data structure while C uses Array. (while arrays are possible in both, we used it in this way for the sake of comparison)._
+
+- Parallel and Distributed Computing
 
 
+ikm
 ### Under construction. 
 This page is under Construction
