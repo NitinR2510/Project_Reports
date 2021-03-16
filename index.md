@@ -30,9 +30,25 @@ _Similar to Quora and Twitter but for a univeristy students and teachers to inte
 
 _Hangman is very popular word game. We programmed hangman with a complete dictionary word set (around 4 million) and compared the performance of the two languages. Basc Python uses list data structure while C uses Array. (while arrays are possible in both, we used it in this way for the sake of comparison)._
 
-- Parallel and Distributed Computing
+- Parallel and Distributed Computing - [Smith Waterman Algorithm](https://github.com/NitinR2510/Project_Reports/blob/main/PDC.pdf)
+
+_Studying the parallelism in genetic algorithms with special emphasis on local gene sequence alignment and the Smith-Waterman Algorithm. We have tried on work on and compare CPU implementation and GPU implementation of the same._ 
+
+- Information Security Audit and Analysis - [The Mail Encryptor](https://github.com/NitinR2510/Project_Reports/blob/main/ISAA.pdf)
+
+_Creating a 3-layered encryption system for real time mail transfer over gmail_
+
+- Artificial Intelligence - [Intelligent Graphologist](https://github.com/NitinR2510/Project_Reports/blob/main/AI.pdf)
+
+_A graphologist is the one to predict a person's personality based on the person's handwriting. Our project aimed to build such a model using machine learning and develop a statistical model under limited sample population_
+
+- Software Engineering - [Intrelligent Graphologist - Project Report](https://github.com/NitinR2510/Project_Reports/blob/main/software_pr.pdf)
+
+_This project aimed at tracing and documenting the development involved in building the intelligent graphologist project for our 
+Artificial Intelligence course. This means that this report has all the development process like dates, specifications, use cases, gnatt charts etc for the same._
 
 
-ikm
+
+
 ### Under construction. 
-This page is under Construction
+This page is under Construction as there are more projects to complete.
