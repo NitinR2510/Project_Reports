@@ -42,11 +42,29 @@ _Creating a 3-layered encryption system for real time mail transfer over gmail_
 
 _A graphologist is the one to predict a person's personality based on the person's handwriting. Our project aimed to build such a model using machine learning and develop a statistical model under limited sample population_
 
-- Software Engineering - [Intrelligent Graphologist - Project Report](https://github.com/NitinR2510/Project_Reports/blob/main/software_pr.pdf)
+- Software Engineering - [Intelligent Graphologist - Project Report](https://github.com/NitinR2510/Project_Reports/blob/main/software_pr.pdf)
 
 _This project aimed at tracing and documenting the development involved in building the intelligent graphologist project for our 
 Artificial Intelligence course. This means that this report has all the development process like dates, specifications, use cases, gnatt charts etc for the same._
 
+- Information Security Management - [Studying Brute Force Attacks and methodologies to mitigate them](https://github.com/NitinR2510/Project_Reports/blob/main/INFORMATION%20SECURITY%20MANAGEMENT.pdf)
+_This project aims at evaluating various brute force attacks and statistically evaluating them, attack methodologies and preventive measures for the same_
+
+- Image Processing - [Image Stegnalysis through Deep Learning and LSB](https://github.com/NitinR2510/Project_Reports/blob/main/IMAGE%20PROCESSING.pdf)
+_A research article that aims at better identifying ways to use RESNET-50 for image stegnalysis. The paper makes a simple addition of LSB filtering and then establish a comparison between transfer learning and non-transfer learning aided models of the same_
+
+- Internet of Things - [Smart Office for COVID care]
+_Keeping in mind the spread of COVID and the associated social distancing protocols and the fall in productivity associated with the same, the project aims at creating a model office that allows social distancing and increased productivity by introducing fun activities in the same. This is achieved using IoT and a detailed cost analysis has also been carried out with the same._
+
+- Social and Information Networks - [Visualising Live Tweets](https://github.com/NitinR2510/Project_Reports/blob/main/SOCIAL_INFORMATION_NETWORKS.pdf)
+
+_Live Tweet Analysis using Python and then visualising the same on various metrics and ML_
+
+- Internet and Web Programming -[Project Sahyog-A report] (https://github.com/NitinR2510/Project_Reports/blob/main/IWP.pdf)
+_Please check the already existing Repository on Project Sahyog on this account. But to brief about it, it was an online platform for the supply of medical commodities in the early June of 2020 when they were in an acute shortage.
+
+- Data Visualisation -[Visualising Water levels and Rainfall Patterns for Chennai over 10 years](https://github.com/NitinR2510/Project_Reports/blob/main/DATA_VISUALISATION.pdf)
+_Using Tableau and Python, the said work was performed. Various statistical measurements were made, hypothesis established and further rainfall patterns predicted_
 
 
 
