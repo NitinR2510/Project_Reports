@@ -65,7 +65,7 @@ _Keeping in mind the spread of COVID and the associated social distancing protoc
 
 _Live Tweet Analysis using Python and then visualising the same on various metrics and ML_
 
-- Internet and Web Programming -[Project Sahyog-A report] (https://github.com/NitinR2510/Project_Reports/blob/main/IWP.pdf)
+- Internet and Web Programming -[Project Sahyog-A report](https://github.com/NitinR2510/Project_Reports/blob/main/IWP.pdf)
 
 
 _Please check the already existing Repository on Project Sahyog on this account. But to brief about it, it was an online platform for the supply of medical commodities in the early June of 2020 when they were in an acute shortage.
