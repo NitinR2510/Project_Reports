@@ -2,7 +2,8 @@
 <hr>  <br>
 
 <img src="https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/21/2018/9/29/Campus%20View%20of%20Vellore%20Institute%20of%20Technology%20Vellore_Campus-View.jpg" width="40%" alt="This is a picture of my university">
-<img src="https://nitinr2510.github.io/images/me.png" width="10%" align="right" alt="That's me"> 
+<img src="https://nitinr2510.github.io/images/me.png" width="10%" alt="That's me"> 
+<br>
 I am Nitin Ranjan. And I study at the VIT University, Vellore. It's a beautiful place, and I have a lot of fun as a student there; but this page is about my projects - and they make us do a lot of them!
 
 _So, anyways, stranger, this is a collection of all project reports I made as a student here from being a fresher to graduation day._
