@@ -48,22 +48,31 @@ _This project aimed at tracing and documenting the development involved in build
 Artificial Intelligence course. This means that this report has all the development process like dates, specifications, use cases, gnatt charts etc for the same._
 
 - Information Security Management - [Studying Brute Force Attacks and methodologies to mitigate them](https://github.com/NitinR2510/Project_Reports/blob/main/INFORMATION%20SECURITY%20MANAGEMENT.pdf)
+
 _This project aims at evaluating various brute force attacks and statistically evaluating them, attack methodologies and preventive measures for the same_
 
 - Image Processing - [Image Stegnalysis through Deep Learning and LSB](https://github.com/NitinR2510/Project_Reports/blob/main/IMAGE%20PROCESSING.pdf)
+
 _A research article that aims at better identifying ways to use RESNET-50 for image stegnalysis. The paper makes a simple addition of LSB filtering and then establish a comparison between transfer learning and non-transfer learning aided models of the same_
 
-- Internet of Things - [Smart Office for COVID care]
+- Internet of Things - [Smart Office for COVID care](https://github.com/NitinR2510/Project_Reports/blob/main/IOT.pdf)
+
+
 _Keeping in mind the spread of COVID and the associated social distancing protocols and the fall in productivity associated with the same, the project aims at creating a model office that allows social distancing and increased productivity by introducing fun activities in the same. This is achieved using IoT and a detailed cost analysis has also been carried out with the same._
 
 - Social and Information Networks - [Visualising Live Tweets](https://github.com/NitinR2510/Project_Reports/blob/main/SOCIAL_INFORMATION_NETWORKS.pdf)
 
+
 _Live Tweet Analysis using Python and then visualising the same on various metrics and ML_
 
 - Internet and Web Programming -[Project Sahyog-A report] (https://github.com/NitinR2510/Project_Reports/blob/main/IWP.pdf)
+
+
 _Please check the already existing Repository on Project Sahyog on this account. But to brief about it, it was an online platform for the supply of medical commodities in the early June of 2020 when they were in an acute shortage.
 
 - Data Visualisation -[Visualising Water levels and Rainfall Patterns for Chennai over 10 years](https://github.com/NitinR2510/Project_Reports/blob/main/DATA_VISUALISATION.pdf)
+
+
 _Using Tableau and Python, the said work was performed. Various statistical measurements were made, hypothesis established and further rainfall patterns predicted_
 
 
