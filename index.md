@@ -1,7 +1,7 @@
 ## Welcome to University Project Reports of Nitin Ranjan
 <hr>  <br>
 
-<img src="https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/21/2018/9/29/Campus%20View%20of%20Vellore%20Institute%20of%20Technology%20Vellore_Campus-View.jpg" width="40%" alt="This is a picture of my university">
+<img src="https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/21/2018/9/29/Campus%20View%20of%20Vellore%20Institute%20of%20Technology%20Vellore_Campus-View.jpg" width="50%" alt="This is a picture of my university">
 <img src="https://nitinr2510.github.io/images/me.png" width="15%" alt="That's me">
 <img src="https://upload.wikimedia.org/wikipedia/en/thumb/c/c5/Vellore_Institute_of_Technology_seal_2017.svg/1200px-Vellore_Institute_of_Technology_seal_2017.svg.png" width="20%" alt="VIT logo">
 <br>
