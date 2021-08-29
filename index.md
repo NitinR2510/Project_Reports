@@ -68,7 +68,7 @@ _Live Tweet Analysis using Python and then visualising the same on various metri
 - Internet and Web Programming -[Project Sahyog-A report](https://github.com/NitinR2510/Project_Reports/blob/main/IWP.pdf)
 
 
-_Please check the already existing Repository on Project Sahyog on this account. But to brief about it, it was an online platform for the supply of medical commodities in the early June of 2020 when they were in an acute shortage.
+_Please check the already existing Repository on Project Sahyog on this account. But to brief about it, it was an online platform for the supply of medical commodities in the early June of 2020 when they were in an acute shortage_
 
 - Data Visualisation -[Visualising Water levels and Rainfall Patterns for Chennai over 10 years](https://github.com/NitinR2510/Project_Reports/blob/main/DATA_VISUALISATION.pdf)
 
