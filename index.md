@@ -1,6 +1,11 @@
 ## Welcome to University Project Reports of Nitin Ranjan
 <hr>  <br>
-I study at the VIT University, Vellore and this is a collection of all project reports I made as a student here from being a fresher to graduation day.
+
+<img src="https://cache.careers360.mobi/media/presets/720X480/colleges/social-media/media-gallery/21/2018/9/29/Campus%20View%20of%20Vellore%20Institute%20of%20Technology%20Vellore_Campus-View.jpg" width="40%" alt="This is a picture of my university">
+<img src="https://nitinr2510.github.io/images/me.png" width="10%" align="right" alt="That's me"> 
+I am Nitin Ranjan. And I study at the VIT University, Vellore. It's a beautiful place, and I have a lot of fun as a student there; but this page is about my projects - and they make us do a lot of them!
+
+_So, anyways, stranger, this is a collection of all project reports I made as a student here from being a fresher to graduation day._
 
 ### Year 1 (2018-19)
 
@@ -25,7 +30,7 @@ _ICRYM is a chatbot built to behave as a friend and a monitor for the mental hea
 
 _Similar to Quora and Twitter but for a univeristy students and teachers to interact and learn more_
 
-### Year 3 (2020 - )
+### Year 3 (2020 - 21)
 - Data Structures and Algorithms - [Hangman and the analysis of Python vs C for large datas](https://github.com/NitinR2510/Project_Reports/blob/main/DSA.pdf)
 
 _Hangman is very popular word game. We programmed hangman with a complete dictionary word set (around 4 million) and compared the performance of the two languages. Basc Python uses list data structure while C uses Array. (while arrays are possible in both, we used it in this way for the sake of comparison)._
@@ -75,7 +80,9 @@ _Please check the already existing Repository on Project Sahyog on this account.
 
 _Using Tableau and Python, the said work was performed. Various statistical measurements were made, hypothesis established and further rainfall patterns predicted_
 
-
+### Year 4(2021-)
 
 ### Under construction. 
-This page is under Construction as there are more projects to complete.
+
+<img src="https://nationallawuniversitydelhi.in/ailet/under-construction.jpg" alt="more is to come" width="50%">
+This page is under Construction as there are more projects to complete, cuz <i><b>Life goes On</b><i>
