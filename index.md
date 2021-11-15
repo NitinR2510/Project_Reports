@@ -86,7 +86,7 @@ _Using Tableau and Python, the said work was performed. Various statistical meas
 
 - Technical Answers to Real World Problems -[]
 
-<i>Visualising global Data</i> [https://public.tableau.com/views/EnergyTrendsViz/CoverPage?:language=en-US&:display_count=n&:origin=viz_share_link]
+[<i>Visualising global Data</i>](https://public.tableau.com/views/EnergyTrendsViz/CoverPage?:language=en-US&:display_count=n&:origin=viz_share_link)
 
 - Microprocessors and Interfacing -[]
 
