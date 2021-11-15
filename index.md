@@ -82,7 +82,13 @@ _Please check the already existing Repository on Project Sahyog on this account.
 
 _Using Tableau and Python, the said work was performed. Various statistical measurements were made, hypothesis established and further rainfall patterns predicted_
 
-### Year 4(2021-)
+### Year 4(2021-2022)
+
+- Technical Answers to Real World Problems -[]
+
+<i>Visualising global Data</i> [https://public.tableau.com/views/EnergyTrendsViz/CoverPage?:language=en-US&:display_count=n&:origin=viz_share_link]
+
+- Microprocessors and Interfacing -[]
 
 ### Under construction. 
 
