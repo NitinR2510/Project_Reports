@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Project Reports | The White City Archives</title>
+  <meta name="description" content="Project reports from VIT (2018–2022), presented in a Minas Tirith-inspired archive." />
+  <style>
+    :root {
+      --bg-1: #f5f2eb;
+      --bg-2: #e6dfd3;
+      --stone: #f8f7f4;
+      --stone-2: #ebe7df;
+      --line: rgba(137, 129, 113, 0.45);
+      --gold: #c9a85e;
+      --gold-2: #f2d89b;
+      --ink: #2f2a24;
+      --muted: #6c665d;
+      --card: rgba(255, 255, 255, 0.7);
+      --shadow: 0 20px 45px rgba(51, 44, 34, 0.15);
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      color: var(--ink);
+      font-family: "Georgia", "Garamond", serif;
+      min-height: 100vh;
+      background:
+        radial-gradient(1200px 500px at 50% -20%, #fffefb 0%, transparent 70%),
+        linear-gradient(to bottom, var(--bg-1) 0%, var(--bg-2) 100%);
+      overflow-x: hidden;
+    }
+
+    .city-bg {
+      position: fixed;
+      inset: 0;
+      pointer-events: none;
+      z-index: -1;
+      overflow: hidden;
+    }
+
+    .tier {
+      position: absolute;
+      left: 50%;
+      transform: translateX(-50%);
+      border-radius: 50% 50% 0 0;
+      border: 1px solid var(--line);
+      background: linear-gradient(to bottom, rgba(255,255,255,.55), rgba(235,231,223,.4));
+      box-shadow: inset 0 1px 0 rgba(255,255,255,.6);
+      animation: breathe 8s ease-in-out infinite;
+    }
+
+    .tier::after {
+      content: "";
+      position: absolute;
+      inset: 10px;
+      border-radius: inherit;
+      border: 1px solid rgba(201, 168, 94, 0.3);
+    }
+
+    .t1 { width: 120vw; height: 38vh; bottom: -8vh; animation-delay: 0s; }
+    .t2 { width: 105vw; height: 33vh; bottom: 2vh; animation-delay: .4s; }
+    .t3 { width: 88vw; height: 28vh; bottom: 11vh; animation-delay: .8s; }
+    .t4 { width: 72vw; height: 23vh; bottom: 20vh; animation-delay: 1.2s; }
+    .t5 { width: 56vw; height: 19vh; bottom: 29vh; animation-delay: 1.6s; }
+    .t6 { width: 42vw; height: 15vh; bottom: 38vh; animation-delay: 2s; }
+
+    .citadel {
+      position: absolute;
+      left: 50%;
+      bottom: 45vh;
+      width: 120px;
+      height: 180px;
+      transform: translateX(-50%);
+      background: linear-gradient(to bottom, #ffffff, #e9e4db);
+      border: 1px solid rgba(106, 97, 83, 0.35);
+      box-shadow: 0 0 0 8px rgba(255,255,255,.2), 0 10px 30px rgba(45,40,32,.18);
+      clip-path: polygon(18% 100%, 18% 45%, 30% 45%, 30% 0%, 70% 0%, 70% 45%, 82% 45%, 82% 100%);
+      opacity: .75;
+    }
+
+    @keyframes breathe {
+      0%, 100% { transform: translateX(calc(-50% + var(--dx, 0px))) translateY(0px); }
+      50% { transform: translateX(calc(-50% + var(--dx, 0px))) translateY(-6px); }
+    }
+
+    .wrap {
+      width: min(1100px, 92%);
+      margin: 0 auto;
+      padding: 2.5rem 0 3rem;
+    }
+
+    .hero {
+      text-align: center;
+      padding: 2.5rem 1rem;
+      border: 1px solid rgba(133, 123, 105, 0.3);
+      background: linear-gradient(160deg, rgba(255,255,255,.72), rgba(243,238,230,.65));
+      box-shadow: var(--shadow);
+      backdrop-filter: blur(2px);
+    }
+
+    .crest {
+      letter-spacing: .22em;
+      text-transform: uppercase;
+      font-size: .76rem;
+      color: var(--muted);
+      margin-bottom: .85rem;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(1.8rem, 4vw, 3rem);
+      color: #342d24;
+      line-height: 1.2;
+    }
+
+    .subtitle {
+      margin: 1rem auto 0;
+      max-width: 760px;
+      color: var(--muted);
+      line-height: 1.6;
+      font-size: 1rem;
+    }
+
+    .reports {
+      margin-top: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+
+    .card {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+      padding: 1rem;
+      border: 1px solid rgba(126, 115, 97, 0.35);
+      background: var(--card);
+      transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+      box-shadow: 0 8px 24px rgba(47, 42, 36, .08);
+    }
+
+    .card:hover {
+      transform: translateY(-4px);
+      border-color: rgba(201, 168, 94, .7);
+      box-shadow: 0 16px 28px rgba(47, 42, 36, .14);
+    }
+
+    .card h3 {
+      margin: 0;
+      font-size: 1.05rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: .5rem;
+    }
+
+    .card p {
+      margin: .65rem 0 0;
+      font-size: .9rem;
+      color: #5e574c;
+      line-height: 1.45;
+    }
+
+    .tag {
+      font-size: .72rem;
+      color: #5d5347;
+      border: 1px solid rgba(201, 168, 94, .55);
+      padding: .12rem .42rem;
+      border-radius: 999px;
+      white-space: nowrap;
+    }
+
+    .foot {
+      margin-top: 2rem;
+      text-align: center;
+      color: #5d5448;
+      font-size: .95rem;
+    }
+
+    .foot a {
+      color: #4a3f30;
+      text-underline-offset: 2px;
+    }
+  </style>
+</head>
+<body>
+  <div class="city-bg" aria-hidden="true">
+    <div class="tier t1"></div>
+    <div class="tier t2"></div>
+    <div class="tier t3"></div>
+    <div class="tier t4"></div>
+    <div class="tier t5"></div>
+    <div class="tier t6"></div>
+    <div class="citadel"></div>
+  </div>
+
+  <main class="wrap">
+    <section class="hero">
+      <div class="crest">The White City Archives</div>
+      <h1>Project Reports (VIT 2018–2022)</h1>
+      <p class="subtitle">
+        Inspired by Minas Tirith: layered, resilient, and luminous.
+        Explore the collected reports from my university years in a clean white-silver-gold theme.
+      </p>
+    </section>
+
+    <section class="reports" aria-label="Project reports">
+      <a class="card" href="AI.pdf" target="_blank" rel="noopener"><h3>Artificial Intelligence <span class="tag">PDF</span></h3><p>2021 · Core AI concepts and practical model-building exercises.</p></a>
+      <a class="card" href="DBMS.pdf" target="_blank" rel="noopener"><h3>DBMS <span class="tag">PDF</span></h3><p>2021 · Database design, normalization, and SQL-driven implementation.</p></a>
+      <a class="card" href="DSA.pdf" target="_blank" rel="noopener"><h3>Data Structures & Algorithms <span class="tag">PDF</span></h3><p>2021 · Problem-solving with efficient data structures and algorithms.</p></a>
+      <a class="card" href="DATA_VISUALISATION.pdf" target="_blank" rel="noopener"><h3>Data Visualisation <span class="tag">PDF</span></h3><p>2021 · Turning complex datasets into clear, meaningful visual stories.</p></a>
+      <a class="card" href="IMAGE PROCESSING.pdf" target="_blank" rel="noopener"><h3>Image Processing <span class="tag">PDF</span></h3><p>2021 · Image enhancement, filtering, and feature extraction workflows.</p></a>
+      <a class="card" href="IIP.pdf" target="_blank" rel="noopener"><h3>IIP <span class="tag">PDF</span></h3><p>2021 · Introductory information integration and processing techniques.</p></a>
+      <a class="card" href="INFORMATION SECURITY MANAGEMENT.pdf" target="_blank" rel="noopener"><h3>Information Security Management <span class="tag">PDF</span></h3><p>2021 · Security governance, risk control, and compliance fundamentals.</p></a>
+      <a class="card" href="IOT.pdf" target="_blank" rel="noopener"><h3>Internet of Things <span class="tag">PDF</span></h3><p>2021 · Connected device systems, sensors, and IoT solution design.</p></a>
+      <a class="card" href="ISAA.pdf" target="_blank" rel="noopener"><h3>ISAA <span class="tag">PDF</span></h3><p>2021 · Applied information security analysis and assessment work.</p></a>
+      <a class="card" href="IWP.pdf" target="_blank" rel="noopener"><h3>IWP <span class="tag">PDF</span></h3><p>2021 · Interactive web programming concepts and implementation tasks.</p></a>
+      <a class="card" href="LSM.pdf" target="_blank" rel="noopener"><h3>LSM <span class="tag">PDF</span></h3><p>2021 · Learning and systems modeling methods for technical problems.</p></a>
+      <a class="card" href="PDC.pdf" target="_blank" rel="noopener"><h3>PDC <span class="tag">PDF</span></h3><p>2021 · Parallel and distributed computing fundamentals in practice.</p></a>
+      <a class="card" href="SOCIAL_INFORMATION_NETWORKS.pdf" target="_blank" rel="noopener"><h3>Social Information Networks <span class="tag">PDF</span></h3><p>2021 · Network analysis of social graphs and information flow.</p></a>
+      <a class="card" href="software_pr.pdf" target="_blank" rel="noopener"><h3>Software Project Report <span class="tag">PDF</span></h3><p>2021 · End-to-end software project planning, build, and delivery.</p></a>
+      <a class="card" href="OS.docx" target="_blank" rel="noopener"><h3>Operating Systems <span class="tag">DOCX</span></h3><p>2021 · Process, memory, and scheduling fundamentals in OS design.</p></a>
+    </section>
+
+    <p class="foot">Original repository notes: <a href="README.md">README</a></p>
+  </main>
+
+  <script>
+    const tiers = document.querySelectorAll('.tier');
+    window.addEventListener('mousemove', (event) => {
+      const x = (event.clientX / window.innerWidth - 0.5);
+      tiers.forEach((tier, idx) => {
+        const depth = (idx + 1) * 2.4;
+        tier.style.setProperty('--dx', `${x * depth * 6}px`);
+      });
+    });
+  </script>
+</body>
+</html>
